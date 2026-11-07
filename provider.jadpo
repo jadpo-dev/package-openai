@@ -5,4 +5,24 @@ provider {
     protocol: Protocol.json_http
     credential: CredentialScheme.bearer
     error_code: "error.code"
+    // Each public type, gone through against OpenAI's API reference on
+    // 2026-11-07.
+    reviewed: [
+        ChatCompletion,
+        ChatCompletionChoice,
+        ChatCompletionChunk,
+        ChatCompletionChunkChoice,
+        ChatCompletionDelta,
+        ChatCompletionMessage,
+        ChatCompletionReply,
+        ChatCompletionRequest,
+        CompletionUsage,
+        CreateEmbeddingResponse,
+        EmbeddingData,
+        EmbeddingRequest,
+        EmbeddingUsage,
+        EmbeddingVector,
+        PromptTokensDetails,
+        StreamedChatCompletionRequest
+    ]
 }

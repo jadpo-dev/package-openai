@@ -1,5 +1,16 @@
 # Changelog
 
+## 1.0.1
+
+- no change to what it offers
+
+Each public type checked against OpenAI's API reference for chat
+completions, streamed chat completions and embeddings: every field's name,
+whether it is optional, and its type match what OpenAI sends and accepts.
+Message content is now marked as deliberately not counted as personal data
+here, because Jadpo checks what an app sends a model where the app writes
+it. Nothing an app writes changes.
+
 ## 1.0.0
 
 - first release
