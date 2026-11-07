@@ -5,7 +5,10 @@ public type EmbeddingRequest = Object {
     model: Text {
         max_length: 200
     }
-    input: List<Text>
+    input: List<Text> {
+        min_length: 1
+        max_length: 2048
+    }
     dimensions: Int? {
         min: 1
         max: 16000
