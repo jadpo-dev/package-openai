@@ -2,10 +2,7 @@
 
 ## 2.0.0
 
-- changed package `OpenAi.v2`
-- retyped type `ChatCompletionRequest`
-- retyped type `EmbeddingRequest`
-- retyped type `StreamedChatCompletionRequest`
+- first release
 
 Each public type checked against OpenAI's API reference for chat
 completions, streamed chat completions and embeddings: every field's name,
