@@ -2,6 +2,7 @@
 
 ## 2.0.0
 
+- changed package `OpenAi.v2`
 - retyped type `ChatCompletionRequest`
 - retyped type `EmbeddingRequest`
 - retyped type `StreamedChatCompletionRequest`
